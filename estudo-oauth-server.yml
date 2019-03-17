@@ -29,7 +29,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     platform: mysql
     schema: classpath:/sql/schema.sql
-    url: jdbc:mysql://localhost:3306/sampleDB?verifyServerCertificate=false&useSSL=false&requireSSL=false&useTimezone=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/sampleDB?verifyServerCertificate=false&allowPublicKeyRetrieval=true&useSSL=false&requireSSL=false&useTimezone=true&serverTimezone=UTC
     password: 'root'
     username: root
   jpa:
